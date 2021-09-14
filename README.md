@@ -1,10 +1,14 @@
 # Java-coding-puzzle-4
 
 	
-  Given a string, return the length of the longest streak of the same chars in the string. 
+	The birds in Florida like to sing during favorable temperatures. 
+	In particular, they sing if the temperature is between 60 and 90 (inclusive). 
+	Unless it is summer, then the upper limit is 100 instead of 90. 
+	Given an int temperature and a boolean isSummer, 
+	return true if the birds are singing and false otherwise.
+	
 
 	 EXPECTATIONS:
-		longestStreak("hayyeu") --- 2
-		longestStreak("XPNzzzddOOOxx")  --- 3
-		longestStreak("")  --- 0 
-	 
+		birdsSinging(70, false)   --- true
+		birdsSinging(95, false)   --- false
+		birdsSinging(95, true)    --- true
